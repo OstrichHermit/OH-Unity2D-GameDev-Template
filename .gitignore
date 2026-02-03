@@ -73,3 +73,24 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ============================================================================
+# 商业插件排除 (Commercial Plugins Exclusion)
+# 以下插件受商业许可证保护，不能包含在开源仓库中
+# The following plugins are under commercial licenses and cannot be included in the open-source repository
+# ============================================================================
+
+# Odin Inspector - 商业许可证，需从 https://odininspector.com/ 购买
+/[Aa]ssets/Plugins/Sirenix/
+
+# Amplify Shader Editor - Asset Store EULA
+/[Aa]ssets/AmplifyShaderEditor/
+
+# Febucci TextAnimator - Asset Store EULA
+/[Aa]ssets/Plugins/Febucci/
+
+# HotReload - 商业产品，需从 https://hotreload.net/ 购买
+/[Aa]ssets/HotReload/
+
+# DOTween Pro (如果有Pro版本) - 免费版可以保留
+# /[Aa]ssets/Plugins/Demigiant/DOTweenPro/
