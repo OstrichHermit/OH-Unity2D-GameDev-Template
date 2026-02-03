@@ -1,0 +1,14 @@
+### 命名规范 (Naming Conventions)
+- 命名空间 ：
+  - 框架层工具统一使用 OHTools 。
+- 类名 ：
+  - 逻辑管理器 ：使用 Manager 后缀，如 QuestManager 。
+  - 如果是单例，且继承自MonoBehaviour，则必须继承 OHMonoSingleton<T> 。
+  - 表现层/UI ：使用 DisplayManager 或 View 后缀，如 GuaMachineDisplayManager 。
+  - 数据对象 ：使用 So 后缀（针对 ScriptableObject），如 LevelDataSo 。
+- 方法与变量 ：
+  - 公共方法/属性 ：使用 PascalCase （大驼峰），如 UpdateGameState() 。
+  - 私有字段 ：使用 _camelCase （下划线+小驼峰），如 _currentGuaSo 。
+  - 常量/静态只读 ：使用 PascalCase 或 UPPER_SNAKE_CASE 。
+  - 变量通常情况下保持私有，非必要不公开。
+  - 需要引用对象的私有变量或重要的数值私有变量，必须使用[SerializeField]进行序列化，并使用[LabelText]进行注释，以方便在 Inspector 中查看和调试。
