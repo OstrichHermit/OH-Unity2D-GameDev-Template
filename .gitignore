@@ -89,8 +89,12 @@ crashlytics-build.properties
 # Febucci TextAnimator - Asset Store EULA
 /[Aa]ssets/Plugins/Febucci/
 
-# HotReload - 商业产品，需从 https://hotreload.net/ 购买
+# HotReload - 商业产品，需从 https://hotreload.net/ 购买（旧版在 Assets，UPM 内嵌包版在 Packages）
 /[Aa]ssets/HotReload/
+/[Pp]ackages/com.singularitygroup.hotreload/
+
+# PrimeTween - Asset Store 付费资产（EULA 禁止再分发，非 MIT），需从 https://assetstore.unity.com/packages/slug/252960 获取
+/[Aa]ssets/[Pp]lugins/[Pp]rimeTween/
 
 # DOTween Pro (如果有Pro版本) - 免费版可以保留
 # /[Aa]ssets/Plugins/Demigiant/DOTweenPro/

@@ -8,27 +8,6 @@
 
 以下插件已包含在项目中，可自由使用：
 
-### ✅ PrimeTween
-- **许可证**: MIT License
-- **版本**: Latest
-- **用途**: 高性能、零内存分配的动画库
-- **作者**: Kyrylo Kuzyk
-- **仓库**: [GitHub - PrimeTween](https://github.com/KyryloKuzyk/PrimeTween)
-- **功能**:
-  - 补间动画（Tweening）
-  - 序列动画（Sequences）
-  - 相机震动（Camera Shake）
-  - UI动画过渡
-  - 零内存分配设计
-
-**MIT License 允许**:
-- ✅ 商业使用
-- ✅ 修改
-- ✅ 分发
-- ✅ 私人使用
-
----
-
 ### ✅ UniRx
 - **许可证**: MIT License
 - **版本**: Latest
@@ -185,19 +164,36 @@
 
 ---
 
+### ⚠️ PrimeTween
+- **许可证**: Unity Asset Store EULA（⚠️ 非开源，GitHub 仓库仅为文档/Issue 跟踪，勿被 "MIT" 旧标注误导）
+- **购买**: [Unity Asset Store](https://assetstore.unity.com/packages/slug/252960)
+- **作者**: Kyrylo Kuzyk
+- **用途**: 高性能、零内存分配的动画库（补间、序列、相机震动、UI动画）
+
+**许可证限制**:
+- ❌ 不能再分发源码（本仓库已通过 .gitignore 排除）
+- ✅ 购买后可在自己的项目中使用
+- ✅ 商业项目可用
+
+**安装方法**:
+1. 从 Asset Store 购买并导入项目
+2. 或通过 Package Manager 以 UPM tgz 方式安装
+
+---
+
 ### ⚠️ HotReload
-- **许可证**: 商业产品
+- **许可证**: 商业 EULA（The Naughty Cult Ltd.，明文禁止复制与分发）
 - **购买**: [HotReload官网](https://hotreload.net/)
 - **价格**: 订阅制（有30天免费试用）
 - **用途**: 实时代码热重载
 
 **许可证限制**:
 - ❌ 需要付费订阅
-- ❌ 受标准商业许可证约束
+- ❌ 不能复制、分发（本仓库已通过 .gitignore 排除内嵌包 `Packages/com.singularitygroup.hotreload/`）
 - ✅ 可大幅提升开发效率
 
 **安装方法**:
-1. 从官网下载并安装
+1. 从官网下载并安装（UPM 内嵌包或 Asset Store）
 2. 启动Unity时会自动激活
 3. 试用30天后需购买许可证
 
@@ -209,15 +205,16 @@
 
 | 插件名称 | 许可证 | 是否包含 | 用途 |
 |---------|--------|---------|------|
-| PrimeTween | MIT | ✅ 是 | 动画系统 |
 | UniRx | MIT | ✅ 是 | 响应式编程 |
 | UniTask | MIT | ✅ 是 | 异步处理 |
 | Hierarchy 4 | MPL-2.0 | ✅ 是 | 层级窗口增强 |
 | DOTween | 免费 | ✅ 是 | 动画引擎 |
 | TextMeshPro | Unity Companion | ✅ 是 | 文本渲染 |
+| MCP for Unity | MIT | ✅ 是（Git 依赖引用） | AI 编辑器桥接 |
 | Odin Inspector | 商业 | ❌ 否 | 编辑器扩展 |
 | Amplify Shader Editor | Asset Store | ❌ 否 | 着色器编辑 |
 | Febucci TextAnimator | Asset Store | ❌ 否 | 文本动画 |
+| PrimeTween | Asset Store | ❌ 否 | 动画系统 |
 | HotReload | 商业 | ❌ 否 | 热重载 |
 
 ---
@@ -291,4 +288,4 @@
 
 ---
 
-**最后更新**: 2026-02-04
+**最后更新**: 2026-10-25
