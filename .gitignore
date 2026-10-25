@@ -99,3 +99,8 @@ crashlytics-build.properties
 # DOTween Pro (如果有Pro版本) - 免费版可以保留
 # /[Aa]ssets/Plugins/Demigiant/DOTweenPro/
 /.idea
+
+# Claude Code 本地个人配置与编译缓存（不入库）
+.claude/settings.local.json
+__pycache__/
+*.pyc
